@@ -1,0 +1,31 @@
+.todoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.todoItem--done {
+    text-decoration: line-through;
+}
+
+.input {
+    margin-right: 1rem;
+}
+
+.button {
+    border: 1px solid #999;
+    color: #999;
+    border-radius: 50%;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    background: #999;
+    color: #fff;
+}

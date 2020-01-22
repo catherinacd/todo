@@ -1,0 +1,32 @@
+.add-todo__form {
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.add-todo__input {
+    width: 100%;
+    font-size: 16px;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.add-todo__button {
+    border: none;
+    border-radius: 4px;
+    color: #ffffff;
+    width: 100%;
+    max-width: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    display: block;
+    background-image: linear-gradient(to right, #4776E6 0%, #8E54E9 51%, #4776E6 100%);
+}
+
+.add-todo__button:hover {
+    background-position: right center;
+}
